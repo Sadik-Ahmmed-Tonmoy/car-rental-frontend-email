@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blue-primary: #02ACEE;
+  --color-blue-secondary: #f2f4ff;
+
+  /* add breakpoint */
+  --breakpoint-xs: 540px;
+}
+
+
+.font-goldman {
+  font-family: var(--font-goldman);
+}
+
+
+
+.font-dm-sans {
+  font-family: var(--font-dm-sans);
+}
+
+body {
+  font-family: var(--font-dm-sans);
+}
